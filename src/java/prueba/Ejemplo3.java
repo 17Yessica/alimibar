@@ -25,7 +25,7 @@ public class Ejemplo3 {
         MascotaDao mascota = new MascotaDao();
         Session session = HibernateUtil.getSessionFactory().openSession();
         Mascota mimascota = new Mascota(1, "pastor", "thalia", "peruano");
-        mascota.actualizarMascota(session, mimascota);
+        mascota.actualizarMascota(mimascota);
 
     }
 }

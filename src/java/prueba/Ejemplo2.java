@@ -26,11 +26,11 @@ public class Ejemplo2 {
         ArrayList<Mascota> lista = new ArrayList<>();
         MascotaDao mascotadao = new MascotaDao();
         Session sesion = HibernateUtil.getSessionFactory().openSession();
-        lista = mascotadao.listarMascotas(sesion);
+     /*   lista = mascotadao.listarMascotas(sesion);
         for (Mascota mascota : lista) {
             System.out.println("MASCOTITA: " + mascota.getNombreMascota());
 
-        }
+        }*/
     }
 
 }
